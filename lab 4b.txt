@@ -1,0 +1,79 @@
+#include <stdio.h>
+
+char main()
+{
+    char a;
+    printf("Enter a grade :");
+    scanf("%c", &a);
+    switch(a)
+    {
+        case 'E':
+         printf("Excellent");
+         break;
+        case 'V':
+         printf("Very Good");
+         break;
+        case 'G':
+         printf("Good");
+         break;
+        case 'A':
+         printf("Average");
+         break;
+        case 'F':
+         printf("Fail");
+        
+    }
+
+    return 0;
+}
+--------------------------------------------------------------------
+#include <stdio.h>
+
+int main()
+{
+    float n, sum = 0.0;
+    printf("Enter a list of numbers, 0 to end input :");
+    scanf("%f", &n);
+    while(n != 0)
+    {
+        sum += n;
+        scanf("%f" ,&n);
+    }
+    printf("sum is %5.2f\n" ,sum);
+
+    return 0;
+}
+-------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main()
+{
+    int i = 1;
+    float n, avr, sum = 0.0;
+    printf("Enter a list of numbers, 0 to end input :");
+    while(i <= 5)
+    {
+        sum += n;
+        scanf("%f" ,&n);
+        i++;
+    }
+    avr = sum / 5;
+    printf("sum is %5.2f\n" ,avr);
+    
+    return 0;
+}
+---------------------------------------------------------------------------------
+#include <stdio.h>
+
+int main()
+{
+    float a, sum = 0.0;
+    for(a = 1; a <= 99; a++)
+    {
+        sum = sum + a / (a+1);
+    }
+    
+    printf("sum %f" ,sum);
+    
+    return 0;
+}

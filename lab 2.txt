@@ -1,0 +1,52 @@
+
+#include <stdio.h>
+
+void main()
+{
+printf("\tELET 104      \n");
+printf("******************\n");
+printf("*    hello world   *\n");
+printf("*    Faris Ahmed   *\n'");
+printf("******************");
+}
+----------------------------------------------------------------------
+#include <stdio.h>
+
+void main()
+{
+   float a, b, C;
+   printf("Enter two number: ") ;
+   scanf("%f%f", &a, &b) ;
+   C=a+b;
+   printf("you Have entered: %f",a+b) ;
+}
+-----------------------------------------------------------------------
+#include <stdio.h>
+
+void main()
+{
+  float area, base, height;
+  printf( "Enter base: ");
+  scanf("%f", &base);
+  printf("Enter height: ");
+  scanf("%f",&height);
+  area = base * height;
+  printf("Area = %.2f\n",area);
+}
+------------------------------------------------------------------------
+#include <stdio.h>
+
+void main ()
+{
+  float Basic, TA, TAX, Gross, Netpay;
+  printf("Enter Basic: ");
+  scanf("%f",&Basic);
+  printf ("Enter TA:");
+  scanf("%f",&TA);
+  printf ("Enter TAX: ");
+  scanf("%f",&TAX);
+   Gross = Basic + TA;
+  printf("Gross = %.2f\n", Gross);
+  Netpay= Gross - TAX;
+  printf ("Netpay = %.2f\n", Netpay);
+}

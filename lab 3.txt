@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+void main()
+{
+   int a;
+   float b;
+   printf("Enter An Integer Number : ");
+   scanf("%d", &a) ;
+   printf("Enter A Real Number : ");
+   scanf("%f",&b);
+   printf("%d\n",a);
+   printf("%f",b);
+   return 0;
+}
+----------------------------------------------------------------
+#include <stdio.h>
+
+void main()
+
+{
+   float Radius, area;
+   printf("Enter Radius : ");
+   scanf("%f", &Radius) ;
+   area = 3.14159 * Radius * Radius;
+   printf("area = %f", area);
+   return 0;
+}
+------------------------------------------------------------------
+#include <stdio.h>
+
+
+   void main()
+{
+   char a[60], b[60];
+   printf("Enter A Character : ");
+   scanf("%s", a);
+   printf("Enter A String : ");
+   scanf("%s", b);
+   printf("%s\n",a);
+   printf("%s", b);
+}
+------------------------------------------------------------------
+#include <stdio.h>
+
+
+   void main()
+{
+   char a[60], b[60];
+   printf("Enter First Name : ");
+   scanf("%s", a);
+   printf("Enter Second Name : ");
+   scanf("%s", b);
+   printf("%s ",a);
+   printf("%s", b);
+}

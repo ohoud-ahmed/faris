@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, *aptr, *bptr, sum;
+    
+    printf("enter 2 number ");
+    scanf("%d%d", &a, &b);
+    aptr = &a;
+    bptr = &b;
+    sum = *aptr + *bptr;
+    printf("sum = %d ", sum);
+
+
+    return 0;
+}
