@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <math.h>
+float Area(float);
+float Circumference(float);
+int main()
+{
+  float a, c, r;
+
+  printf("Enter radius of circle: ");
+  scanf("%f", &r);
+  printf("Area of circle is: %.2ff\n",Area(r));
+  printf("Circumference of circle is: %.2f",Circumference(r));
+
+  return 0;
+}
+
+float Area(float r)
+{
+    return M_PI * pow(r, 2);
+}
+
+float Circumference(float r)
+{
+    return 2 * M_PI * r;
+}
+---------------------------------------------------------------------------
+#include <stdio.h>
+int main()
+{
+    
+    int a, b, c, m;
+    printf("Enter 3 num: ");
+    scanf("%d %d %d", &a, &b, &c);
+    m = max(a, b);
+    m = max(m, c);
+    printf("the larget num is : %d ", m);
+    return 0;
+}
+
+int max(int a, int b)
+{
+    
+    if(a > b)
+     return a;
+    else 
+     return b;
+}
